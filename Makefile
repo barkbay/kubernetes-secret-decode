@@ -1,6 +1,7 @@
+GO111MODULE=on
 SHELL=/bin/bash
-BINARY_NAME:="kubectl-ksd"
-GOPATH:="${HOME}/go"
+BINARY_NAME:=kubectl-ksd
+GOPATH:=${HOME}/go
 
 .PHONY: install
 install: ## Install the binary 
