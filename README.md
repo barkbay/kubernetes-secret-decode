@@ -42,10 +42,7 @@ type: Opaque
 ```
 
 ### Installation
-#### Prebuilt
-Download the appropriate binary for your OS from the [releases section](https://github.com/ashleyschuett/kubernetes-secret-decode/releases), make it executable and add it to your path.
 
-#### Compile From Source
 These instructions assume you have go installed and a `$GOPATH` set.
 The binary needs to be installed somewhere in your `$PATH`.
 The binary also needs to be named either `kubectl-ksd` or `kubectl-kubernetes-secret-decode`
